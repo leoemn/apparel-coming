@@ -1,0 +1,95 @@
+body {
+    height: 100vh;  /* Make sure the body takes up the full viewport height */
+    width: 100%;
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, hsla(0, 0%, 100%), hsla(0, 100%, 98%)),
+    linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+}
+
+#main {
+    flex: 1; 
+    display: flex;
+    overflow: hidden; 
+}
+
+.left {
+    flex: 1;
+    overflow-y: auto;  
+}
+.logo {
+    position: relative;
+    top: 10%;
+    left: 25%;
+}
+
+p {
+    font-family: 'Josefin Sans';
+}
+
+.p1 {
+    color: hsl(0, 36%, 70%);
+    font-size: 53px;
+    letter-spacing: 19px;
+    font-weight: 300;
+    position: relative;
+    /*top:16%;
+    left: 25%;*/
+
+    padding-top: 16%;
+
+}
+
+.p2 {
+    color: hsl(0, 6%, 24%);
+    font-size: 60px;
+    letter-spacing: 15px;
+    font-weight: 600;
+    position: relative;
+    top: 8%;
+    left: 25%;
+}
+
+.p3 {
+    color: hsl(0, 6%, 24%);
+    font-size: 60px;
+    letter-spacing: 15px;
+    font-weight: 600;
+    position: relative;
+    top: 1%;
+    left: 25%;
+}
+
+.p4 {
+    color: hsl(0, 36%, 70%);
+    position: relative;
+}
+
+.right {
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.right img {  
+    height: 100%;
+    width: 90%; 
+}
+
+footer { 
+    text-align: center;
+    width: 100%;
+    background: #fff;  /* Add a background color to make it stand out */
+}
+
+footer p { 
+    font-size: 11px; 
+    margin: 0;
+}
+
+footer a { 
+    color: hsl(228, 45%, 44%); 
+}
