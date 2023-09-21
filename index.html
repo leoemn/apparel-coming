@@ -15,26 +15,28 @@
 </head>
 <body>
   <div id="main">
+    <h1></h1>
     <div class="left">
       <div class="logo">
         <img src="images/logo.svg" alt="logo">
       </div>
-      <div class="p1">
+      <div class="p1" role="we're">
         <p>WE'RE</p>
       </div>
-      <div class="p2">
+      <div class="p2" role="coming">
         <p>COMING</p>
       </div>
-      <div class="p3">
+      <div class="p3" role="soon">
         <p>SOON</p>
       </div>
-      <div class="p4"><p>Hello fellow shoppers! We're currently building our new fashion store. 
+      <div class="p4" role="msg"><p>Hello fellow shoppers! We're currently building our new fashion store. 
         Add your email below to stay up-to-date with announcements and our launch deals.</p></div>
         <div class="mail">
           <div class="input-wrapper">
               <input type="text" class="text-input" placeholder="Email Address">
-              <button class="email-button">
-                <img src="images/icon-arrow.svg" alt="">
+              <svg id="error-icon" class="error-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" fill-rule="evenodd"><circle cx="12" cy="12" r="12" fill="#F96464"/><path fill="#FFF" fill-rule="nonzero" d="M13.256 6v9.056h-2V6h2zm-.944 12.464c-.384 0-.699-.104-.944-.312a1.027 1.027 0 0 1-.368-.824c0-.33.125-.608.376-.832.25-.224.563-.336.936-.336.373 0 .68.112.92.336.24.224.36.501.36.832 0 .341-.117.616-.352.824-.235.208-.544.312-.928.312z"/></g></svg>
+              <button class="email-button" aria-label="Submit">
+                <img class="btn-img" src="images/icon-arrow.svg" alt="">
               </button>
           </div>
           <span id="error-message"></span>

@@ -128,6 +128,17 @@ p {
     left: -10%;
 }
 
+.btn-img {
+    margin-left: 40%;
+}
+
+.error-icon {
+    position: absolute;
+    display: none;
+    right: 63%;
+    top: 15%;
+}
+
 #error-message {
     position: relative;
     font-family: 'Josefin Sans';
